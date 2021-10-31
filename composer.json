@@ -1,0 +1,23 @@
+{
+    "name": "leovie/open-mensa-php",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "LeoVie\\OpenMensaPhp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LeoVie\\OpenMensaPhp\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leo Viezens",
+            "email": "leo.viezens@web.de"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
